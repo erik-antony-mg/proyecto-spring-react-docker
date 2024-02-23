@@ -1,7 +1,6 @@
 package com.sistema.ollacomun.domain.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Positive;
 import lombok.*;
 
 import java.time.LocalDate;

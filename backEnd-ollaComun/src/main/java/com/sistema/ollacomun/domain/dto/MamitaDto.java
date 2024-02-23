@@ -2,7 +2,6 @@ package com.sistema.ollacomun.domain.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.Data;
-import lombok.Getter;
 
 import java.time.LocalDate;
 
