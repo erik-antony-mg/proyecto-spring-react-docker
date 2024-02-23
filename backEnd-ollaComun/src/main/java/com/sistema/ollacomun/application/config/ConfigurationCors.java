@@ -14,7 +14,7 @@ public class ConfigurationCors {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://vps-3938869-x.dattaweb.com/:4300")
+                        .allowedOrigins("http://vps-3938869-x.dattaweb.com:4300")
                         //esto reemplaza al de arriba para que cualquera use
 //                        .allowedOriginPatterns("*")
                         .allowedMethods("*")
