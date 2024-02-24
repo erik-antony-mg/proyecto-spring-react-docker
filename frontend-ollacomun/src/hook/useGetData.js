@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 
 export const useGetData = () => {
 
-    // const URL = "http://localhost:9095/api/v1/mamitas";
-    // const URL = "http://back-app:9095/api/v1/mamitas";
-    const URL ="http://vps-3938869-x.dattaweb.com:9095/api/v1/mamitas"
+    const URL = "http://localhost:9095/api/v1/mamitas";
+
+
     const [contentPage, setContentPage] = useState([]);
     const [mamitas, setmamitas] = useState([])
 
